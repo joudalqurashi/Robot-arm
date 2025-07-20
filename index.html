@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Arm Control Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Robot Arm Control Panel</h1> 
+            
+        </header>
+
+        <div class="main-content">
+            <!-- Left Panel - Motor Controls -->
+            <div class="control-panel">
+                <div class="motor-controls">
+                    <div class="motor-control">
+                        <label for="motor1">Motor 1:</label>
+                        <input type="range" id="motor1" min="0" max="180" value="90" class="slider">
+                        <span class="value" id="value1">90</span>
+                    </div>
+
+                    <div class="motor-control">
+                        <label for="motor2">Motor 2:</label>
+                        <input type="range" id="motor2" min="0" max="180" value="90" class="slider">
+                        <span class="value" id="value2">90</span>
+                    </div>
+
+                    <div class="motor-control">
+                        <label for="motor3">Motor 3:</label>
+                        <input type="range" id="motor3" min="0" max="180" value="90" class="slider">
+                        <span class="value" id="value3">90</span>
+                    </div>
+
+                    <div class="motor-control">
+                        <label for="motor4">Motor 4:</label>
+                        <input type="range" id="motor4" min="0" max="180" value="90" class="slider">
+                        <span class="value" id="value4">90</span>
+                    </div>
+
+                    <div class="motor-control">
+                        <label for="motor5">Motor 5:</label>
+                        <input type="range" id="motor5" min="0" max="180" value="90" class="slider">
+                        <span class="value" id="value5">90</span>
+                    </div>
+
+                    <div class="motor-control">
+                        <label for="motor6">Motor 6:</label>
+                        <input type="range" id="motor6" min="0" max="180" value="90" class="slider">
+                        <span class="value" id="value6">90</span>
+                    </div>
+                </div>
+
+                <div class="control-buttons">
+                    <button id="resetBtn" class="btn btn-secondary">Reset</button>
+                    <button id="savePoseBtn" class="btn btn-primary">Save Pose</button>
+                    <button id="runBtn" class="btn btn-success">Run</button>
+                    <button id="statusMonitorBtn" class="btn2 btn-move" onclick="window.location.href='status.html'">Status Monitor</button>
+                </div>
+
+            </div>
+            
+            <!-- Right Panel - Robot Arm Image -->
+            <div class="robot-panel">
+                <div class="robot-image">
+                    <img src="images/arm.jpg" alt="Robot Arm" id="robotArm">
+                    <div class="status-indicator" id="statusIndicator"></div>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <!-- Poses Table -->
+        <div class="poses-section">
+            <h2>Saved Poses</h2>
+            <table class="poses-table" id="posesTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Motor 1</th>
+                        <th>Motor 2</th>
+                        <th>Motor 3</th>
+                        <th>Motor 4</th>
+                        <th>Motor 5</th>
+                        <th>Motor 6</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="posesTableBody">
+                    <!-- Poses will be loaded dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Save Pose Modal -->
+    <div id="savePoseModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Save Current Pose</h3>
+            <input type="text" id="poseNameInput" placeholder="Enter pose name..." maxlength="100">
+            <div class="modal-buttons">
+                <button id="confirmSaveBtn" class="btn btn-primary">Save</button>
+                <button id="cancelSaveBtn" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
