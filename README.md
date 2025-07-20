@@ -140,6 +140,7 @@ image for the Web site
 <img width="1919" height="554" alt="image" src="https://github.com/user-attachments/assets/d7431de7-49c2-4384-ac94-a6da7d68e428" />
 
 <img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/716f5163-cdd7-4acd-a3e5-58b050a497c8" />
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/fcd02551-bfe6-474a-b9d5-57cf073a4708" />
 
 <img width="1919" height="895" alt="image" src="https://github.com/user-attachments/assets/2c9b7853-d8dd-4cdd-8470-a33b415d5a69" />
 
