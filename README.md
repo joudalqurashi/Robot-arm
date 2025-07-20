@@ -137,7 +137,7 @@ image for the Web site
 <img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/5421be20-1f1d-42a2-9d50-f72308047d28" />
 
 
-<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/e69463a9-1de7-485b-97e6-ae5721557497" />
+<img width="1919" height="554" alt="image" src="https://github.com/user-attachments/assets/d7431de7-49c2-4384-ac94-a6da7d68e428" />
 
 <img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/716f5163-cdd7-4acd-a3e5-58b050a497c8" />
 
