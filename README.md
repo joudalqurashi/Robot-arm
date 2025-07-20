@@ -129,3 +129,28 @@ Modify these settings if your setup is different.
 2. **File Not Found**: Ensure all files are in the correct directory structure
 3. **JavaScript Errors**: Check browser console for detailed error messages
 4. **AJAX Failures**: Verify PHP files are accessible and database is running
+
+
+
+image for the Web site 
+
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/5421be20-1f1d-42a2-9d50-f72308047d28" />
+
+
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/e69463a9-1de7-485b-97e6-ae5721557497" />
+
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/716f5163-cdd7-4acd-a3e5-58b050a497c8" />
+
+<img width="1919" height="895" alt="image" src="https://github.com/user-attachments/assets/2c9b7853-d8dd-4cdd-8470-a33b415d5a69" />
+
+<img width="1586" height="742" alt="image" src="https://github.com/user-attachments/assets/6eb0b016-3767-4da2-ac58-32267a30259e" />
+
+<img width="1588" height="824" alt="image" src="https://github.com/user-attachments/assets/bdb85e11-caaa-4c2d-a447-008e56c4c2e7" />
+
+
+
+
+
+
+
+
